@@ -6,4 +6,4 @@ def reverse_each_word(string)
 result =  x.collect {|word| word.reverse!}
 result.to_s
 end
-p reverse_each_word(string)
+puts reverse_each_word(string)
