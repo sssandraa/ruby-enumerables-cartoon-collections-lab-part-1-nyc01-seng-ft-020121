@@ -5,4 +5,4 @@ def reverse_each_word(string)
   x = string.split
   x.each {|word| word.reverse!}
 end
-puts reverse_each_word(string)
+p reverse_each_word(string)
